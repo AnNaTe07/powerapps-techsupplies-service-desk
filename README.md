@@ -79,7 +79,7 @@ Office 365 Outlook
 
 La documentación completa del proyecto puede consultarse en:
 
-- [Documentación del proyecto](documentacion/Documentacion.md)
+- [Documentación del proyecto](documentacion.md)
 
 
 ## Aprendizajes
