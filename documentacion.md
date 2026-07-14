@@ -18,25 +18,25 @@ Su objetivo principal es centralizar el registro de incidencias, facilitar el se
 
 ## Pantalla de simulación de roles
 
-![Simulación](../assets/simulacion.png)
+![Simulación](assets/simulacion.png)
 
 ---
 
 ## Pantalla principal
 
-![Inicio](../assets/inicio_encargado.png)
+![Inicio](assets/inicio_encargado.png)
 
 ---
 
 ## Detalle de la incidencia
 
-![Detalle](../assets/detalle.png)
+![Detalle](assets/detalle.png)
 
 ---
 
 ## Edición de la incidencia
 
-![Editar](../assets/edición.png)
+![Editar](assets/edición.png)
 
 ---
 
