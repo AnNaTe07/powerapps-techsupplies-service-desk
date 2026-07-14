@@ -30,7 +30,6 @@ La solución integra Power Apps, SharePoint y Power Automate para administrar el
 - SharePoint Online
 - Power Automate
 - Office 365 Outlook
-- Microsoft 365
 
 ## Funcionalidades
 
