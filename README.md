@@ -55,7 +55,7 @@ La solución integra Power Apps, SharePoint y Power Automate para administrar el
 
 ### Edición
 
-![Edición](assets/editar.png)
+![Edición](assets/edición.png)
 
 
 ## Arquitectura
