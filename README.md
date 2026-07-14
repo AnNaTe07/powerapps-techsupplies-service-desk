@@ -1,6 +1,6 @@
 # TechSupplies Service Desk
 
-![Vista general](assets/inicio.png)
+![Vista general_encargado](assets/inicio_encargado.png)
 
 Aplicación de gestión de incidencias desarrollada con Power Apps, SharePoint y Power Automate.
 
