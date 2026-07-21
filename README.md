@@ -1,8 +1,21 @@
 # TechSupplies Service Desk
 
+# Contenido
+
+- [Descripción](#descripción)
+- [Características principales](#características-principales)
+- [Arquitectura](#arquitectura)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Funcionalidades](#funcionalidades)
+- [Capturas de pantalla](#capturas-de-pantalla)
+- [Documentación](#documentación)
+- [Competencias técnicas](#competencias-técnicas)
+- [Estado del proyecto](#estado-del-proyecto)
+- [Autor](#autor)
+
 ![Vista general_encargado](assets/inicio_encargado.png)
 
-Aplicación de gestión de incidencias desarrollada con Power Apps, SharePoint y Power Automate.
+Aplicación empresarial para la gestión de incidencias desarrollada con Microsoft Power Apps, SharePoint Online y Power Automate.
 
 
 ## Descripción
@@ -25,22 +38,23 @@ La solución integra Power Apps, SharePoint y Power Automate para administrar el
 
 ## Tecnologías utilizadas
 
-- Power Apps
-- Power Fx
-- SharePoint Online
-- Power Automate
-- Office 365 Outlook
+![Microsoft Power Apps](https://img.shields.io/badge/Microsoft_Power_Apps-742774?style=for-the-badge&logo=powerapps&logoColor=white)
+![Power Fx](https://img.shields.io/badge/Power_Fx-0066FF?style=for-the-badge)
+![SharePoint Online](https://img.shields.io/badge/SharePoint_Online-107C10?style=for-the-badge&logo=microsoftsharepoint&logoColor=white)
+![Microsoft Power Automate](https://img.shields.io/badge/Microsoft_Power_Automate-0066FF?style=for-the-badge&logo=powerautomate&logoColor=white)
+![Office 365 Outlook](https://img.shields.io/badge/Office_365_Outlook-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)
 
 ## Funcionalidades
 
 - Registro de incidencias.
-- Consulta y seguimiento de solicitudes.
-- Gestión de estados y prioridades.
-- Administración por roles.
-- Búsqueda y filtrado.
-- Validaciones de datos.
-- Integración con SharePoint.
+- Gestión del ciclo de vida de una incidencia.
+- Asignación de prioridades.
+- Administración de estados.
+- Acceso diferenciado según el rol del usuario.
+- Búsqueda y filtrado dinámico.
+- Integración con SharePoint Online.
 - Automatización mediante Power Automate.
+- Validaciones implementadas con Power Fx.
 
 ## Capturas de pantalla
 
@@ -59,19 +73,19 @@ La solución integra Power Apps, SharePoint y Power Automate para administrar el
 
 ## Arquitectura
 
-Power Apps
-      │
-      ▼
-Power Fx
-      │
-      ▼
-SharePoint
-      │
-      ▼
-Power Automate
-      │
-      ▼
-Office 365 Outlook
+Microsoft Power Apps
+        │
+        ▼
+      Power Fx
+        │
+        ▼
+ SharePoint Online
+        │
+        ▼
+ Microsoft Power Automate
+        │
+        ▼
+ Office 365 Outlook
 
 
 ## Documentación
@@ -81,9 +95,9 @@ La documentación completa del proyecto puede consultarse en:
 - [Documentación del proyecto](documentacion.md)
 
 
-## Aprendizajes
+## Competencias técnicas
 
-Durante el desarrollo se aplicaron conceptos relacionados con:
+Durante el desarrollo del proyecto se aplicaron conceptos relacionados con el desarrollo de aplicaciones empresariales utilizando Microsoft Power Platform, entre ellos:
 
 - Colecciones.
 - Variables globales.
@@ -103,7 +117,7 @@ Durante el desarrollo se aplicaron conceptos relacionados con:
 
 🟢 Proyecto finalizado.
 
-Incluye mejoras funcionales y de experiencia de usuario respecto de la versión desarrollada originalmente con fines académicos.
+El repositorio documenta una solución completa desarrollada con Microsoft Power Platform para la gestión de incidencias, incorporando mejoras funcionales, optimizaciones de interfaz y automatizaciones respecto de la implementación original.
 
 
 ## Autor
