@@ -32,6 +32,30 @@ La solución permite registrar, administrar y realizar el seguimiento de inciden
 
 ---
 
+# Contenido
+
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Objetivos](#objetivos)
+- [Caso de negocio](#caso-de-negocio)
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Arquitectura](#arquitectura)
+- [Modelo de datos](#modelo-de-datos)
+- [Flujo de trabajo](#flujo-de-trabajo)
+- [Roles implementados](#roles-implementados)
+- [Navegación](#navegación)
+- [Variables principales](#variables-principales)
+- [Funcionalidades implementadas](#funcionalidades-implementadas)
+- [Diseño de la interfaz](#diseño-de-la-interfaz)
+- [Decisiones de diseño](#decisiones-de-diseño)
+- [Características destacadas](#características-destacadas)
+- [Integración con SharePoint](#integración-con-sharepoint)
+- [Conceptos de Power Platform aplicados](#conceptos-de-power-platform-aplicados)
+- [Posibles mejoras futuras](#posibles-mejoras-futuras)
+- [Buenas prácticas](#buenas-prácticas)
+- [Conclusión](#conclusión)
+
+---
+
 # Descripción del proyecto
 
 El Sistema de Gestión de Incidencias es una solución desarrollada con Microsoft Power Platform para administrar el ciclo completo de vida de incidencias reportadas por clientes.
@@ -406,17 +430,58 @@ Entre las posibles mejoras se encuentran:
 
 ---
 
-## Buenas prácticas
+# Buenas prácticas
 
-Durante el desarrollo del proyecto se implementaron distintas estrategias para mejorar la mantenibilidad y escalabilidad de la aplicación.
+Durante el desarrollo de la aplicación se aplicaron distintas estrategias para mejorar la organización del código, facilitar el mantenimiento y optimizar la experiencia de usuario.
 
-- Control de acceso mediante roles.
-- Validaciones utilizando Power Fx.
-- Reutilización de pantallas.
-- Navegación desacoplada.
-- Integración con SharePoint Online.
-- Automatización mediante Power Automate.
-- Organización de fórmulas para facilitar el mantenimiento.
+---
+
+## Control de acceso mediante roles
+
+La aplicación implementa un modelo de acceso basado en roles para limitar las acciones disponibles según el perfil del usuario.
+
+Esta estrategia permite proteger la información sensible y simplificar la interfaz mostrando únicamente las funciones necesarias para cada rol.
+
+---
+
+## Centralización de la información
+
+Toda la información se almacena en una única lista de SharePoint Online, utilizada como origen de datos para la aplicación.
+
+Esta arquitectura evita duplicación de información y mantiene sincronizados todos los registros.
+
+---
+
+## Organización de la lógica mediante Power Fx
+
+La lógica de negocio fue implementada utilizando Power Fx, organizando las fórmulas mediante variables globales, variables de contexto y funciones reutilizables.
+
+Entre las principales funciones utilizadas se encuentran:
+
+- Patch
+- Filter
+- LookUp
+- Sort
+
+Esta organización facilita futuras modificaciones y mejora la legibilidad del código.
+
+---
+
+## Diseño orientado a la experiencia de usuario
+
+La interfaz fue diseñada priorizando la claridad visual mediante:
+
+- Contenedores modernos.
+- Badges para representar estados y prioridades.
+- Avatares generados automáticamente.
+- Búsqueda y filtros dinámicos.
+- Navegación sencilla entre pantallas.
+
+---
+
+## Integración con Power Automate
+
+La solución incorpora automatizaciones desarrolladas con Power Automate para complementar el funcionamiento de la aplicación, permitiendo integrar procesos automáticos con la información almacenada en SharePoint.
 
 ---
 
