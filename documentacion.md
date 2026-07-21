@@ -406,6 +406,20 @@ Entre las posibles mejoras se encuentran:
 
 ---
 
+## Buenas prácticas
+
+Durante el desarrollo del proyecto se implementaron distintas estrategias para mejorar la mantenibilidad y escalabilidad de la aplicación.
+
+- Control de acceso mediante roles.
+- Validaciones utilizando Power Fx.
+- Reutilización de pantallas.
+- Navegación desacoplada.
+- Integración con SharePoint Online.
+- Automatización mediante Power Automate.
+- Organización de fórmulas para facilitar el mantenimiento.
+
+---
+
 # Conclusión
 
 El Sistema de Gestión de Incidencias es una solución desarrollada con Microsoft Power Apps y SharePoint Online para administrar el ciclo completo de vida de incidencias mediante un flujo de trabajo basado en roles.
